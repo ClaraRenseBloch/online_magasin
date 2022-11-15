@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'Work Sans', sans-serif; 
+}
+
+
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    margin-top: 0px;
+    position: relative;
+    background-color: #888888;
+    height: 100vh;
+   
+}
+
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.blog-heading h3{
+    font-size: 3.5rem;
+    color: #eeeeee;
+    letter-spacing: 0.05rem;
+}
+
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+    flex-wrap: wrap;
+}
+
+.blog-box{
+    width: 700px;
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee;
+    border-radius: 1rem;
+    margin: 50px;
+}
+
+.blog-text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+}
+
+
+.blog-text .blog-title{
+    font-size: 2.2rem;
+    color: #292728;
+    font-weight: 800;
+}
+
+.blog-text p{
+    color: #333333;
+    font-size: 1.6rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+
+.blog-text a{
+    color: #333333;
+}
+
+.price {
+    background-color: #3b478f;
+    color: #eeeeee;
+    border-radius: 8px;
+    padding: 1rem;
+    letter-spacing: 0.2rem;
+    width: 5.5rem; 
+}
+
+
+.book_button {
+    background-color: #3b478f;
+    color: #eeeeee;
+    border-radius: 8px;
+    padding: 2rem;
+    letter-spacing: 0.1rem;
+    width: 20rem;  
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    margin-left: 45%;
+    display: none;
+}
+
+
+@media screen and (min-width: 758px) {
+    
+}
+
+
+@media screen and (min-width: 992px) {
+    
+}
+
+
+
+
+/*
+.blog-text span {
+    color: #333333;
+    font-size: 0.9rem;
+}
+
+.blog-heading span{
+    color: #eeeeee;
+}
+
+
+
+.book_button :hover{
+    background-color: #3b478f;
+    color: #eeeeee;
+    border-radius: 8px;
+    padding: 2rem;
+    letter-spacing: 0.1rem;
+    width: 20rem;  
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+
+       background: #3b478f;
+    background: linear-gradient(90deg,#059f5d 57%,#00cc73 100%);
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    min-width: 282px;
+    max-width: 50%;
+    position: relative;
+    overflow: hidden;
+    -moz-transition: 200ms all ease-in-out;
+    -o-transition: 200ms all ease-in-out;
+    -webkit-transition: 200ms all ease-in-out;
+    transition: 200ms all ease-in-out;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    -webkit-transition-property: all;
+    transition-property: all;
+*/
